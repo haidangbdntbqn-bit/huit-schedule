@@ -2,7 +2,7 @@
 
 > Web App quản lý và phân lịch giảng dạy **đa cơ sở** thông minh cho Phòng Đào tạo và Giảng viên HUIT.
 
-![PHP Lint](https://github.com/phantananh/huit-schedule/actions/workflows/php-lint.yml/badge.svg)
+![PHP Lint](https://github.com/haidangbdntbqn-bit/huit-schedule/actions/workflows/php-lint.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Tính năng
@@ -57,7 +57,7 @@ cd C:\laragon\www
 # MAMP (macOS)
 cd /Applications/MAMP/htdocs
 
-git clone https://github.com/phantananh/huit-schedule.git
+git clone https://github.com/haidangbdntbqn-bit/huit-schedule.git
 cd huit-schedule
 ```
 
@@ -145,7 +145,7 @@ git init
 git add .
 git commit -m "Initial commit: HUIT Schedule Hub"
 git branch -M main
-git remote add origin https://github.com/phantananh/huit-schedule.git
+git remote add origin https://github.com/haidangbdntbqn-bit/huit-schedule.git
 git push -u origin main
 ```
 
