@@ -1,0 +1,22 @@
+{
+    "name": "phantananh/huit-schedule",
+    "description": "HUIT Schedule Hub - Quản lý và phân lịch giảng dạy đa cơ sở thông minh",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["schedule", "timetable", "huit", "php", "mysql"],
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "vlucas/phpdotenv": "^5.6",
+        "fakerphp/faker": "^1.23"
+    },
+    "scripts": {
+        "seed": "php seed.php",
+        "lint": "find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

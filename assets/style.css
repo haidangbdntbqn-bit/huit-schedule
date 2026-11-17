@@ -1,0 +1,35 @@
+:root { --huit: #0a3d8f; }
+body { background: #f4f6fb; }
+.bg-huit { background: linear-gradient(90deg, #0a3d8f, #1565c0); }
+.card { border: 0; box-shadow: 0 1px 3px rgba(0,0,0,.08); border-radius: .75rem; }
+.card-header { background: #fff; font-weight: 600; border-bottom: 1px solid #eef0f4; }
+.stat .num { font-size: 1.8rem; font-weight: 700; color: var(--huit); }
+.stat i { font-size: 1.8rem; opacity: .35; }
+
+/* Lưới theo tiết */
+.grid-table th, .grid-table td { min-width: 120px; font-size: .85rem; }
+.grid-table thead th { background: #eef3fb; }
+.grid-table tr.session-start > * { border-top: 3px solid #b6c6e3; }
+.grid-table td.busy { background: color-mix(in srgb, var(--c) 12%, white); border-left: 4px solid var(--c); vertical-align: top; }
+.grid-table td.free { height: 38px; text-align: center; }
+.grid-table td.free a { display: block; color: #c3c9d4; text-decoration: none; font-weight: 700; }
+.grid-table td.free:hover { background: #e9f5ee; }
+.grid-table td.free:hover a { color: #198754; }
+
+/* Lưới theo buổi */
+.session-grid td { min-width: 150px; }
+.chip { border-left: 4px solid var(--c); background: color-mix(in srgb, var(--c) 10%, white); padding: 4px 6px; border-radius: 4px; margin-bottom: 4px; font-size: .8rem; }
+
+.suggest-item { cursor: default; }
+.suggest-item.unavailable { opacity: .55; }
+.score-badge { min-width: 52px; }
+
+/* Lịch tháng */
+.month-table td { height: 110px; vertical-align: top; width: 14.28%; font-size: .78rem; }
+.month-table td.other { background: #f8f9fa; color: #adb5bd; }
+.month-table td.today { outline: 2px solid var(--huit); outline-offset: -2px; }
+.month-table .day-num { font-weight: 700; }
+.legend-dot { display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: var(--c); margin-right: 4px; vertical-align: middle; }
+
+.login-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #0a3d8f, #42a5f5); }
+@media print { .navbar, footer, .no-print { display: none !important; } }

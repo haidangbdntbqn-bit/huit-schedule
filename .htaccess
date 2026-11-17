@@ -1,0 +1,6 @@
+# Chặn truy cập trực tiếp file nhạy cảm khi chạy bằng Apache (Laragon/MAMP/XAMPP)
+Options -Indexes
+<FilesMatch "^\.|composer\.(json|lock)$|\.(sql|md)$">
+    Require all denied
+</FilesMatch>
+RedirectMatch 403 ^/?(.*/)?(includes|vendor|database)/
